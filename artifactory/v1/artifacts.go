@@ -17,7 +17,7 @@ type ProxyRef struct {
 	Key          *string `json:"key,omitempty"`
 	Host         *string `json:"host,omitempty"`
 	Port         *int    `json:"port,omitempty"`
-	DefaultProxy *bool   `json:"defaultProxy,omitempty"`
+	PlatformDefault *bool   `json:"platformDefault,omitempty"`
 }
 
 // SingleReplicationConfig is the model of the Artifactory Replication Config
